@@ -1,0 +1,107 @@
+body {
+    background-color: var(--very-dark-blue);
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#box-nft {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    width: 350px;
+    height: auto;
+    padding: 24px;
+    gap: 24px;
+    background-color: var(--dark-blue);
+    border-radius: 24px;
+    box-shadow: 0 15px 1px 15px var(--very-dark-blue-rgba), 0 10px 15px 40px var(--dark-blue-rgba), inset 0 -4px 6px rgba(0, 0, 0, 0.1), inset 0 4px 6px rgba(255, 255, 255, 0.05);
+}
+
+.image-nft img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.title {
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.description {
+    color: var(--soft-blue);
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.data-nft {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.data-nft img {
+    width: auto;
+    height: 100%;
+    object-fit: contain;
+}
+
+.number-nft {
+    display: flex;
+    align-items: center;
+    color: var(--cyan-color);
+    gap: 8px;
+}
+
+.hour-nft {
+    display: flex;
+    align-items: center;
+    color: var(--soft-blue);
+    gap: 8px;
+}
+
+hr {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--neutral-blue);
+}
+
+.user-create {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 32px;
+    gap: 16px;
+}
+
+.user-create img {
+    width: 32px;
+    height: auto;
+    object-fit: contain;
+    border: 1px solid var(--white-color);
+    border-radius: 16px;
+}
+
+.name-user {
+    color: var(--soft-blue);
+    font-weight: 300;
+}
+
+.name-user a {
+    color: var(--white-color);
+    font-weight: 500;
+}

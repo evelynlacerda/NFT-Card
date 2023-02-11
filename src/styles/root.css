@@ -1,0 +1,13 @@
+:root {
+    /* Primary colors */
+    --soft-blue: #8bacda;
+    --cyan-color: #00fff7;
+
+    /* Neutral colors */
+    --white-color: #ffffff;
+    --neutral-blue: #2f415b;
+    --dark-blue: #14253d;
+    --very-dark-blue: #0d192b;
+    --dark-blue-rgba: rgb(20, 37, 61, 0.10);
+    --very-dark-blue-rgba: rgb(13, 25, 43, 0.80);
+}
