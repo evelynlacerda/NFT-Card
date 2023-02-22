@@ -7,9 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NFT Card Frontend Mentor</title>
 
-    <link rel="stylesheet" href="./src/styles/style.css">
-    <link rel="stylesheet" href="./src/styles/reset.css">
-    <link rel="stylesheet" href="./src/styles/root.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/root.css">
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,9 +19,15 @@
 </head>
 
 <body>
-    <div id="box-nft">
-        <div class="image-nft">
-            <a href="#" target="_blank"><img src="./src/assets/img/image-equilibrium.jpg" alt="Equilibrium NFT"></a>
+    <section id="box-nft">
+        <div class="image">
+            <img src="./src/assets/img/image-equilibrium.jpg" alt="Equilibrium NFT" class="image-nft">
+
+            <a href="#" target="_blank">
+                <div class="image-view">
+                    <img src="./src/assets/img/icon-view.svg" alt="View" class="view">
+                </div>
+            </a>
         </div>
         <div class="text">
             <h2 class="title">Equilibrium #3429</h2>
@@ -42,7 +48,7 @@
             <img src="./src/assets/img/image-avatar.png" alt="Avatar">
             <p class="name-user">Creation of <a href="#" target="_blank">Jules Wyvern</a></p>
         </div>
-    </div>
+    </section>
 </body>
 
 </html>

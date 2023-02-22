@@ -10,4 +10,7 @@
     --very-dark-blue: #0d192b;
     --dark-blue-rgba: rgb(20, 37, 61, 0.10);
     --very-dark-blue-rgba: rgb(13, 25, 43, 0.80);
+
+    /* Hover colors */
+    --image-view-bg: rgb(0, 255, 247, 0.4);
 }
